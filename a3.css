@@ -341,6 +341,17 @@ margin-top: 10px;
 	display: none;
 }
 
+/* Unordered list with employee information. */
+.employee-list li {
+	/* New line for list items, when there is an image. */
+	clear: both;
+}
+.employee-list img {
+	/* Move images to the right and create space between image and next list item. */
+	float: right;
+	margin-top: .294118em; /* Align text top with image top. */
+}
+
  #main-text a, .nyhed a {
 	color:#35561d;
 }
