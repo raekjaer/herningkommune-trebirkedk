@@ -1,4 +1,4 @@
-﻿/* Dagsordre */
+/* Dagsordre */
 
 .bilag-list li span{
 	background: #35561d;
@@ -336,6 +336,11 @@ margin-top: 10px;
 	font-family: arial;
 }
 
+.breadcrumb .first+.breadcrumb-step {
+	/* Hide first breadcrumb step from subsites. */
+	display: none;
+}
+
  #main-text a, .nyhed a {
 	color:#35561d;
 }
@@ -476,6 +481,7 @@ margin-top: 10px;
 }
 
 /*Responsive */
+/*  */
 @media only screen and (max-device-width: 480px), only screen and (max-width: 767px) {
     #outer-wrapper {
         background: #656565;
@@ -484,8 +490,7 @@ margin-top: 10px;
     .Forside #header {
         background: #505050 !important;
     }
-
-
+	
     /* Off canvas menu */
     .js-ready #phone-nav,
     #phone-search-form-wrapper {
