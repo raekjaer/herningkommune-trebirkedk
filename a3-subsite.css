@@ -1,5 +1,3 @@
-@import url("/media/system/css/a3.css");
-
 .breadcrumb .first+.breadcrumb-step {
 	/* Hide first breadcrumb step from subsites. */
 	display: none;
