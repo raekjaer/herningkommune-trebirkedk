@@ -14,10 +14,13 @@
 	margin-top: .294118em; /* Align text top with image top. */
 }
 /* List boxes */
+.box-list ul li a {
+	background-position: 0 2px;	
+}
 .box-list .date {
 	color: #464949;
 }
-.box-list .box-link-href {
+.box-list .box-link a {
 	display: block;
 	background-position: 7px 11px;
 	margin-left: 3px;
@@ -26,7 +29,7 @@
 	font-weight: bold;
 	text-decoration: none;
 }
-.box-list .box-link-href span {
+.box-list .box-link a span {
 	line-height: 22px;
 }
 
