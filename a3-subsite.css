@@ -13,6 +13,30 @@
 	float: right;
 	margin-top: .294118em; /* Align text top with image top. */
 }
+
+/* Calendar view */
+.event {
+	margin-bottom: 20px;
+}
+.event a {
+	font-weight: bold;
+	font-size: 14px;
+	color: #35561d;
+}
+.event .manchet {
+    padding: 10px 0;
+}
+.calendar .months {
+	margin: 20px 0;
+	padding: 5px 0;
+}
+.calendar .months a {
+	padding-right: .5em;
+	color: #35561d;
+}
+.calendar .months a.active {
+	font-weight: bold;
+}
 /* List boxes */
 .box-list ul li a {
 	background-position: 0 2px;	
